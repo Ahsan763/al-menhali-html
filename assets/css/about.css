@@ -1,0 +1,286 @@
+.banner-wrapper2{
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.banner-wrapper2 .bannerBox2 {
+    width: 130px;
+}
+.bannerBox_btn2{
+    width: 277px;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: 20px;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+}
+.servicesWrapper2{
+    box-shadow: 0px 3px 15px 0 rgba(0,0,0,0.03);
+}
+.ser{
+    position: relative;
+    z-index: 10;
+    padding:0 0 100px 0 ;
+}
+.faqBg3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.faqBg4{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    z-index: -1;
+}
+.serBoxHdng{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.7;
+}
+.serBox{
+    width: 48%;
+}
+.serWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* about start */
+.about{
+    padding: 120px 0 00px 0;
+    position: relative;
+    z-index: 0;
+}
+.aboutbg{
+    position: absolute;
+    top: 48%;
+    right: 15%;
+    z-index: -1;
+    width: 50%;
+}
+.aboutbox{
+    width: 48%;
+}
+.serBoxImg{
+    max-width: 550px;
+    height: auto;
+}
+
+.aboutboxImg{
+    max-width: 600px;
+    height: auto;
+}
+.aboutbox_hdng{
+    position: relative;
+    font-size: 35px;
+    color: #030000;
+    width: fit-content;
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+.aboutbox_hdng::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 3px;
+    background-color: var(--red);
+}
+.aboutbox_subhdng{
+    font-size: 24px;
+    color: var(--red);
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+.aboutbox_para{
+    font-size: 20px;
+    color: #030000;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+/* .aboutbox1{
+    display: flex;
+    justify-content: flex-end;
+} */
+.aboutWrper2{
+    flex-direction: row-reverse;
+}
+.aboutWrper{
+    margin-bottom: 60px;
+    padding: 0 100px;
+}
+.css-ahj2mt-MuiTypography-root{
+    font-family: 'Dubai' !important;
+    font-weight: 500 !important;
+}
+@media(max-width:1799px){
+    .serBoxHdng {
+        font-size: 55px;
+    }
+    .serBoxImg {
+        max-width: 500px;
+
+    }
+}
+@media(max-width:1599px){
+    .aboutWrper {
+        margin-bottom: 60px;
+        padding: 0 60px;
+    }
+    .about {
+        padding: 60px 0 0px 0;
+    }
+    .aboutboxImg {
+        max-width: 560px;
+    }
+    .serBoxHdng {
+        font-size: 45px;
+    }
+    .serBoxImg {
+        max-width: 450px;
+    }
+    .ser {
+        padding: 0 0 90px 0;
+    }
+}
+@media(max-width:1399px){
+    .serBoxHdng {
+        font-size: 40px;
+    }
+    .serBoxImg {
+        max-width: 400px;
+    }
+    .aboutWrper {
+        margin-bottom: 40px;
+        padding: 0 0px;
+    }
+    .aboutbox_hdng {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .aboutbox_subhdng {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .aboutbox_para {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .aboutboxImg {
+        max-width: 100%;
+    }
+
+}
+@media(max-width:1199px){
+
+}
+@media(max-width:1023px){
+    .faqBg1, .faqBg2,
+    .faqBg,
+    .faqBg3,
+    .faqBg4 {
+        width: 140px;
+    }
+    .ser {
+        padding: 0 0 85px 0;
+    }
+    .serBoxImg {
+        max-width: 360px;
+    }
+    .serBoxHdng {
+        font-size: 35px;
+    }
+    .about {
+        padding: 40px 0 0px 0;
+    }
+    .aboutboxImg {
+        max-width: 100%;
+    }
+    .aboutbox_hdng {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .aboutbox_subhdng {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+    .aboutbox_para {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .aboutbg {
+        top: 58%;
+        right: 8%;
+        width: 50%;
+    }
+    
+}
+@media(max-width:768px){
+    .aboutWrper{
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+    .aboutbox{
+        width: 100%;
+    }
+    .aboutbg {
+        top: 58%;
+        right: auto;
+        left: 8%;
+        width: 50%;
+    }
+    .serBoxImg {
+        max-width: 300px;
+    }
+    .serBoxHdng {
+        font-size: 35px;
+    }
+}
+@media(max-width:767px){
+    .serWrapper{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .serBox{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .serBoxImg{
+        max-width: 250px;
+        margin: auto;
+    }
+    .faqBg,
+    .faqBg1, .faqBg2,
+    .faqBg3, .faqBg4 {
+        width: 110px;
+    }
+    .aboutbox_hdng {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .faqBg, .faqBg1, .faqBg2, .faqBg3, .faqBg4 {
+        width: 100px;
+    }
+}
+@media(max-width:539px){
+    .banner2 .banner-wrapper2{
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+    }
+    .serBoxHdng {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,123 @@
+
+*,
+*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --Blue: #07A4E9;
+  --red: #E24D3C;
+  --mid-black: #3B3A3A;
+  --grey: #606060;
+  --border: #D4D4D4;
+
+}
+body{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: 'Dubai';
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,a,form{
+  margin: 0;
+  padding: 0;
+}
+.red{
+  color: var(--red);
+}
+.d-none{
+  display: none !important;
+}
+.dark .dark-none{
+  display: none !important;
+}
+.dark .dark-show{
+  display: flex !important;
+}
+.wrapper{
+  display: flex;
+}
+.al-center{
+  align-items: center;
+}
+.jst-btw{
+  justify-content: space-between;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background: none;
+  border-radius: 0;
+}
+.swiper{
+  direction: rtl !important;
+}
+.ReactCollapse--collapse {
+  transition: all 250ms !important;
+  position: absolute !important;
+  top: 127px;
+  left: -2px;
+  z-index: 9;
+  width: calc(100% + 4px);
+}
+.css-ahj2mt-MuiTypography-root{
+  font-weight: 500 !important;
+  font-family: 'Dubai' !important;
+}
+*::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 20px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--Blue) #fff;
+}
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--Blue) ;
+  border-radius: 20px;
+  border: 3px solid #fff;
+
+}
+
+@media(max-width:1799px){
+  .ReactCollapse--collapse {
+    top: 87px;
+  }
+}
+@media(max-width:1199px){
+  .ReactCollapse--collapse {
+    top: 67px;
+  }
+}
+@media(max-width:1199px){
+  .ReactCollapse--collapse {
+    left: -1px;
+    width: calc(100% + 2px);
+    top: 65px;
+  }
+}
+@media(max-width:767px){
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+}
